@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		814A85E9212558B1000B8DFE /* WQDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A85E7212558B1000B8DFE /* WQDisplayView.m */; };
 		815C73322123CA55007F39A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C73312123CA55007F39A0 /* AppDelegate.m */; };
 		815C73352123CA55007F39A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C73342123CA55007F39A0 /* ViewController.m */; };
 		815C73382123CA55007F39A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815C73362123CA55007F39A0 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		814A85E7212558B1000B8DFE /* WQDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQDisplayView.m; sourceTree = "<group>"; };
+		814A85E8212558B1000B8DFE /* WQDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQDisplayView.h; sourceTree = "<group>"; };
 		815C732D2123CA55007F39A0 /* WQNeuronAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WQNeuronAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		815C73302123CA55007F39A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		815C73312123CA55007F39A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		814A85E62125588B000B8DFE /* WQDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				814A85E8212558B1000B8DFE /* WQDisplayView.h */,
+				814A85E7212558B1000B8DFE /* WQDisplayView.m */,
+			);
+			path = WQDisplay;
+			sourceTree = "<group>";
+		};
 		815C73242123CA55007F39A0 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		815C732F2123CA55007F39A0 /* WQNeuronAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				814A85E62125588B000B8DFE /* WQDisplay */,
 				815C73302123CA55007F39A0 /* AppDelegate.h */,
 				815C73312123CA55007F39A0 /* AppDelegate.m */,
 				815C73332123CA55007F39A0 /* ViewController.h */,
@@ -265,6 +278,7 @@
 				815C73352123CA55007F39A0 /* ViewController.m in Sources */,
 				815C73402123CA56007F39A0 /* main.m in Sources */,
 				815C73322123CA55007F39A0 /* AppDelegate.m in Sources */,
+				814A85E9212558B1000B8DFE /* WQDisplayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
